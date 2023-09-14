@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Website</title>
+    <link rel="stylesheet" href="/styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Add inline CSS for the background image */
+        body {
+            background-image: url('/public/crick.jpg'); /* Replace with your image file */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sports World</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Scores</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div >
+        <img id="imageContainer" src="https://media.gettyimages.com/id/518022060/photo/cricket-batsman-hitting-ball-during-cricket-match-in-stadium.jpg?s=612x612&w=0&k=20&c=1dL8yRfFN_Z2fNbAP-NsXx_HmnCOjfpSQnCoKS8GQXA=" alt="Image Description">
+    </div>
+
+    <main>
+        <section class="featured-sport">
+            <h2>Featured Sport</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut metus quis odio gravida auctor.</p>
+        </section>
+
+        <section class="latest-news">
+            <h2>Latest News</h2>
+            <article>
+                <h3>Exciting Match Results</h3>
+                <p>Check out the latest match results from our favorite teams!</p>
+                <a href="#">Read More</a>
+            </article>
+            <article>
+                <h3>Upcoming Tournaments</h3>
+                <p>Stay tuned for the upcoming sports tournaments in your area.</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+        
+        <!-- Add the detail form with fields -->
+        <section class="detail-form">
+            <h2>Submit Your Details</h2>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Sports World. All rights reserved.</p>
+    </footer>
+</body>
+</html>

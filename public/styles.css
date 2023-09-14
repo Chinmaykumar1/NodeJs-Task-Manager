@@ -1,0 +1,168 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-image: url('cricket-background.jpg'); /* Replace with your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.featured-sport {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.featured-sport h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.latest-news h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #666;
+}
+
+/* Style the detail form */
+.detail-form {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Make links in the footer stand out */
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Hover effects for links */
+a:hover {
+    text-decoration: none;
+    color: #666;
+}
+/* Style the image container */
+#imageContainer {
+    width: 300px; /* Set the width of the container */
+    height: 200px; /* Set the height of the container */
+    border: 1px solid #ccc; /* Add a border to the container */
+    text-align: center; /* Center the content horizontally */
+    padding: 20px; /* Add some padding inside the container */
+}
+
+/* Style the image */
+#imageContainer img {
+    max-width: 100%; /* Make the image responsive within the container */
+    max-height: 100%; /* Make the image responsive within the container */
+}
+
